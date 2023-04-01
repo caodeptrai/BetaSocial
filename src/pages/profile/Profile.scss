@@ -1,0 +1,128 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    .profileContainer {
+        width: 935px;
+        height: 100vh;
+
+        .profileInfo {
+            display: flex;
+            align-items: center;
+            padding: 30px 20px 20px 20px;
+
+            .leftInfo {
+                width: 150px;
+                height: 150px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+            }
+
+            .rightInfo {
+                margin-left: 50px;
+                .infoTop {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+
+                    .nickname {
+                        margin-right: 16px;
+                        color: #262626;
+                        font-size: 20px;
+                        font-weight: 400;
+                    }
+                    .editProfileBtn {
+                        margin-right: 10px;
+                        padding: 5px 15px;
+                        border-radius: 8pc;
+                        border: 1px solid transparent;
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+
+                    .followProfileBtn {
+                        background-color: #0095f6;
+                        width: 100px;
+                        margin-right: 10px;
+                        padding: 5px 15px;
+                        border-radius: 8pc;
+                        border: 1px solid transparent;
+                        font-weight: 600;
+                        font-size: 14px;
+                        color: white;
+                        cursor: pointer;
+                    }
+
+                    .settingProfileBtn {
+                        padding: 5px;
+                        border: 1px solid transparent;
+                        background-color: transparent;
+                        font-size: 18px;
+                    }
+                }
+
+                .infoCenter {
+                    margin-bottom: 10px;
+                    display: flex;
+                    align-items: center;
+
+                    .infoCenterItem {
+                        margin-right: 30px;
+                        line-height: 25px;
+                        font-size: 16px;
+
+                        span {
+                            color: #262626;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                .infoBottom {
+                    margin-bottom: 10px;
+
+                    span {
+                        color: #000;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .profileNavbar {
+            border-top: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 48px;
+
+            .profileNavbarLink {
+                color: #8e8e8e;
+                text-decoration: none;
+                margin-right: 30px;
+                font-weight: 500;
+                padding: 0 2px;
+                font-size: 14px;
+                line-height: 48px;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                i {
+                    margin-right: 4px;
+                }
+            }
+
+            .isActive {
+                border-top: 2px solid #000;
+                line-height: 48px;
+                font-weight: 600;
+                color: #000;
+                margin-bottom: 2px;
+            }
+        }
+    }
+}
