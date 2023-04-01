@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // width: 20px;
+    // background-color: #f5222d;
+    margin: 0 4px;
+    width: 30px;
+
+    .cardAvatar {
+        border: 4px solid #ccc;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        object-fit: cover;
+
+        &.newStories {
+            border: 4px solid #f5222d;
+        }
+    }
+
+    span {
+        font-size: 12px;
+    }
+}
+
+.carousel-item {
+    width: 66px !important;
+    transform: translateX(0px) translateX(66px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

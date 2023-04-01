@@ -1,0 +1,76 @@
+.input {
+    height: 75px;
+    background-color: var(--body_background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    .inputWrapper {
+        border: 1px solid #dedede;
+        flex: 1;
+        height: 48px;
+        display: flex;
+        margin: 0 10px;
+        border-radius: 16px;
+        position: relative;
+
+        input {
+            width: 100%;
+            border: none;
+            outline: none;
+            color: #2f2d52;
+            font-size: 14px;
+            padding: 0 5px;
+
+            &::placeholder {
+                color: lightgray;
+            }
+        }
+
+        &:focus-within {
+            border: 1px solid #ccc;
+        }
+
+        .emojiBtn {
+            background-color: transparent;
+            border: 1px solid transparent;
+            padding: 0 10px;
+            font-size: 18px;
+
+            .iconInput {
+                font-size: 22px;
+            }
+        }
+
+        .EmojiPickerReact {
+            width: 350px;
+            position: absolute;
+            right: 10px;
+            top: -350px;
+            z-index: 1;
+        }
+    }
+
+    img {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .send {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        button {
+            border: none;
+            padding: 10px 15px;
+            color: var(--body_color);
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+}
