@@ -1,0 +1,50 @@
+.accountItem {
+    text-decoration: none;
+    color: #000;
+    .accountItemContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 10px;
+        cursor: pointer;
+        border-radius: 16px;
+
+        &:hover {
+            background-color: rgb(250, 250, 250);
+        }
+        .itemWrapperLeft {
+            display: flex;
+            align-items: center;
+            .wrapper {
+                display: flex;
+                flex-direction: column;
+                margin-left: 6px;
+
+                .title {
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+
+                .decs {
+                    color: #929090;
+                    font-size: 12px;
+                }
+            }
+        }
+        .itemWrapperRight {
+            button {
+                color: #0095f6;
+                padding: 10px;
+                background-color: transparent;
+                border: none;
+                font-size: 12px;
+                font-weight: 500;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
