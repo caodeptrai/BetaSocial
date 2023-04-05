@@ -14,9 +14,9 @@ const Profile = () => {
     const toggleTab = (index) => {
         setToggleState(index);
     };
-    const handleFollow = () => {
-        setIsFollow(!isFollow);
-    };
+    // const handleFollow = () => {
+    //     setIsFollow(!isFollow);
+    // };
 
     console.log({ userInfo });
     return (
@@ -38,9 +38,16 @@ const Profile = () => {
                                 </>
                             ) : (
                                 <>
-                                    <button className="followProfileBtn" onClick={() => setIsFollow(!isFollow)}>
-                                        {isFollow ? `Followed` : `Follow`}
-                                    </button>
+                                    {isFollow ? (
+                                        <button className="followedProfileBtn" onClick={() => setIsFollow(!isFollow)}>
+                                            Followed
+                                        </button>
+                                    ) : (
+                                        <button className="followProfileBtn" onClick={() => setIsFollow(!isFollow)}>
+                                            Follow
+                                        </button>
+                                    )}
+
                                     <button className="settingProfileBtn">
                                         <OptionIcon />
                                     </button>

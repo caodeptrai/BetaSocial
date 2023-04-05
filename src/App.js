@@ -18,10 +18,10 @@ function App() {
         return (
             <div className="app">
                 <div className="container">
-                    <div className="leftSide">
+                    <div className="leftSide leftSide-sm">
                         <Sidebar />
                     </div>
-                    <div className="rightSide">
+                    <div className="rightSide rightSide-sm">
                         <Outlet />
                     </div>
                 </div>

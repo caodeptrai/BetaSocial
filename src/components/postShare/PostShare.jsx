@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 import './PostShare.scss';
 
 const PostShare = () => {
@@ -8,7 +8,7 @@ const PostShare = () => {
         <div className="PostShare">
             <img src="https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg" alt="" />
             <div className="wrapper">
-                <input type="text" placeholder="What's happening" />
+                <input type="text" placeholder="Cao, What are you thinking?" />
                 <div className="postOptions">
                     <div className="option" style={{ color: '#0CE400' }} onClick={() => imageRef.current.click()}>
                         <i className="fa-solid fa-image"></i>

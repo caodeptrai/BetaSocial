@@ -124,6 +124,36 @@ export const posts = [
             'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR-XeMzii-m8iQ3g-C81pQ8ZF7LM4te3BOw&usqp=CAU',
         like: 750,
     },
+    {
+        post_id: '21afee4c-16c8-4ed4-9739-39efd0306928',
+        user_post_id: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
+        user_post_name: 'tunpham0311',
+        user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
+        status: 'where are you now?',
+        imagePost:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR-XeMzii-m8iQ3g-C81pQ8ZF7LM4te3BOw&usqp=CAU',
+        like: 750,
+    },
+    {
+        post_id: '21afee4c-16c8-4ed4-9739-39efd0306928',
+        user_post_id: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
+        user_post_name: 'tunpham0311',
+        user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
+        status: 'where are you now?',
+        imagePost:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR-XeMzii-m8iQ3g-C81pQ8ZF7LM4te3BOw&usqp=CAU',
+        like: 750,
+    },
+    {
+        post_id: '21afee4c-16c8-4ed4-9739-39efd0306928',
+        user_post_id: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
+        user_post_name: 'tunpham0311',
+        user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
+        status: 'where are you now?',
+        imagePost:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR-XeMzii-m8iQ3g-C81pQ8ZF7LM4te3BOw&usqp=CAU',
+        like: 750,
+    },
 ];
 
 export const messages = [

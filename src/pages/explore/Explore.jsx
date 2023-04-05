@@ -5,7 +5,7 @@ import './Explore.scss';
 const Explore = () => {
     return (
         <div className="explore">
-            <Row gutter={[8, 8]}>
+            <Row gutter={[16, 16]}>
                 {posts.map((item) => (
                     <Col style={{ position: 'initial' }} span={8} key={item.post_id}>
                         <div className="content">

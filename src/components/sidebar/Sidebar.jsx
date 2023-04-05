@@ -105,74 +105,88 @@ const Sidebar = () => {
     );
 
     return (
-        <div className={toggleSidebar ? ' sidebar isSmall' : 'sidebar'}>
+        <div className={toggleSidebar ? ' sidebar sidebarSm isSmall' : 'sidebar sidebarSm'}>
             <div className={toggleSidebar ? ' sidebarContainer isSmall' : 'sidebarContainer'}>
-                {toggleSidebar ? (
-                    <div className="logo logo-1">
-                        <h1>B</h1>
-                        <span className="dot">.</span>
+                <div className="contentTop">
+                    <div className="logoXl">
+                        {toggleSidebar ? (
+                            <div className="logo ">
+                                <h1>B</h1>
+                                <span className="dot">.</span>
+                            </div>
+                        ) : (
+                            <div className="logo  ">
+                                <h1>BetaSocial</h1>
+                                <span className="dot">.</span>
+                            </div>
+                        )}
                     </div>
-                ) : (
-                    <div className="logo  logo-2">
-                        <h1>BetaSocial</h1>
-                        <span className="dot">.</span>
+
+                    <div className="logoSm">
+                        <div className="logo logo-1">
+                            <h1>B</h1>
+                            <span className="dot">.</span>
+                        </div>
                     </div>
-                )}
-                <ul className="content">
-                    <li className="item" onClick={() => toggleTab(1)}>
-                        <Link className={toggleState === 1 ? 'link  active' : 'link '} to="/">
-                            {toggleState === 1 ? <HomeActiveIcon /> : <HomeIcon />}
+                    <ul className="content">
+                        <li className="item" onClick={() => toggleTab(1)}>
+                            <Link className={toggleState === 1 ? 'link  active' : 'link '} to="/">
+                                {toggleState === 1 ? <HomeActiveIcon /> : <HomeIcon />}
 
-                            <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Home</span>
-                        </Link>
-                    </li>
-                    <li className="item" onClick={() => OpenSearch(2)}>
-                        <div className="searchItem">
-                            {toggleState === 2 ? <SearchActiveIcon /> : <SearchIcon />}
+                                <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Home</span>
+                            </Link>
+                        </li>
+                        <li className="item" onClick={() => OpenSearch(2)}>
+                            <div className="searchItem">
+                                {toggleState === 2 ? <SearchActiveIcon /> : <SearchIcon />}
 
-                            <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Search</span>
-                        </div>
-                    </li>
-                    <li className="item" onClick={() => toggleTab(3)}>
-                        <Link className={toggleState === 3 ? 'link  active' : 'link '} to="/explore">
-                            {toggleState === 3 ? <ExploreActiveIcon /> : <ExploreIcon />}
+                                <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Search</span>
+                            </div>
+                        </li>
+                        <li className="item" onClick={() => toggleTab(3)}>
+                            <Link className={toggleState === 3 ? 'link  active' : 'link '} to="/explore">
+                                {toggleState === 3 ? <ExploreActiveIcon /> : <ExploreIcon />}
 
-                            <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Explore</span>
-                        </Link>
-                    </li>
-                    <li className="item" onClick={() => toggleTab(4)}>
-                        <Link className={toggleState === 4 ? 'link  active' : 'link '} to="/reels">
-                            {toggleState === 4 ? <ReelsActiveIcon /> : <ReelsIcon />}
-                            <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Reels</span>
-                        </Link>
-                    </li>
-                    <li className="item" onClick={() => toggleTab(5)}>
-                        <Link className={toggleState === 5 ? 'link active' : 'link '} to="/inbox">
-                            {toggleState === 5 ? <MessageActiveIcon /> : <MessageIcon />}
-                            <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Message</span>
-                        </Link>
-                    </li>
+                                <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Explore</span>
+                            </Link>
+                        </li>
+                        <li className="item" onClick={() => toggleTab(4)}>
+                            <Link className={toggleState === 4 ? 'link  active' : 'link '} to="/reels">
+                                {toggleState === 4 ? <ReelsActiveIcon /> : <ReelsIcon />}
+                                <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Reels</span>
+                            </Link>
+                        </li>
+                        <li className="item" onClick={() => toggleTab(5)}>
+                            <Link className={toggleState === 5 ? 'link active' : 'link '} to="/inbox">
+                                {toggleState === 5 ? <MessageActiveIcon /> : <MessageIcon />}
+                                <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Message</span>
+                            </Link>
+                        </li>
 
-                    <li className="item" onClick={() => OpenNotification(6)}>
-                        <div className="notify">
-                            {toggleState === 6 ? <BellActiveIcon /> : <BellIcon />}
+                        <li className="item" onClick={() => OpenNotification(6)}>
+                            <div className="notify">
+                                {toggleState === 6 ? <BellActiveIcon /> : <BellIcon />}
 
-                            <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Notification</span>
-                        </div>
-                    </li>
-                    <li className="item">
-                        <Link
-                            className={toggleState === 8 ? 'link active' : 'link'}
-                            to={`/profile/duongcao304`}
-                            onClick={() => toggleTab(8)}
-                        >
-                            <img src={GoogleIcon} alt="" />
-                            <span className={toggleSidebar ? 'title titleSmall' : 'title'}> Profile</span>
-                        </Link>
-                    </li>
-                </ul>
+                                <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Notification</span>
+                            </div>
+                        </li>
+                        <li className="item">
+                            <Link
+                                className={toggleState === 8 ? 'link active' : 'link'}
+                                to={`/profile/duongcao304`}
+                                onClick={() => toggleTab(8)}
+                            >
+                                <img src={GoogleIcon} alt="" />
+                                <span className={toggleSidebar ? 'title titleSmall' : 'title'}> Profile</span>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
                 <Popover content={content} placement="top" trigger="click">
-                    <div className={toggleState === 9 ? ' item active' : ' item'} onClick={() => toggleTab(9)}>
+                    <div
+                        className={toggleState === 9 ? ' item itemMore active' : ' item itemMore'}
+                        onClick={() => toggleTab(9)}
+                    >
                         <div className="more">
                             {toggleState === 9 ? <BarActiveIcon /> : <BarIcon />}
 

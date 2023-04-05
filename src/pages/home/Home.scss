@@ -1,11 +1,12 @@
 .home {
     display: flex;
     justify-content: center;
+
     .homeContainer {
         width: 100%;
         display: flex;
         flex-wrap: nowrap;
-        gap: 40px;
+        gap: 90px;
         .left {
             margin-right: 20px;
             background-color: white;
@@ -33,6 +34,44 @@
                     font-size: 12px;
                     font-weight: 600;
                 }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1350px) {
+    .home {
+        // margin-left: 64px;
+        .homeContainer {
+            width: 630px;
+
+            .left {
+                margin-right: 20px;
+                background-color: white;
+                flex: 0;
+                width: 500px;
+                margin: 0 auto;
+            }
+
+            .right {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .home {
+        .homeContainer {
+            .left {
+                margin-right: 20px;
+                width: 468px;
+                background-color: white;
+                flex: 50%;
+            }
+
+            .right {
+                display: none;
             }
         }
     }

@@ -35,6 +35,8 @@
                         font-size: 20px;
                         font-weight: 400;
                     }
+
+                    .followedProfileBtn,
                     .editProfileBtn {
                         margin-right: 10px;
                         padding: 5px 15px;
@@ -42,6 +44,8 @@
                         border: 1px solid transparent;
                         font-weight: 600;
                         font-size: 14px;
+                        width: 100px;
+                        cursor: pointer;
                     }
 
                     .followProfileBtn {

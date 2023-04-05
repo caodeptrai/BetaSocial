@@ -2,7 +2,8 @@
     display: flex;
     gap: 1rem;
     background-color: rgba(255, 255, 255, 0.64);
-    padding: 1rem;
+    padding: 40px 0;
+    padding-bottom: 32px;
     border-radius: 1rem;
 
     img {
@@ -97,5 +98,14 @@
         color: #0095f6;
         background: transparent;
         border: 2px solid #0095f6;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .PostShare {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 24px;
     }
 }

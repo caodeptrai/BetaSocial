@@ -7,9 +7,9 @@ const Post = () => {
     console.log({ posts });
     return (
         <div className="postPage">
-            <Row gutter={[16, 8]}>
+            <Row gutter={[16, 16]}>
                 {posts.map((item) => (
-                    <Col style={{ position: 'initial' }} span={6} key={item.id}>
+                    <Col style={{ position: 'initial' }} span={8} key={item.id}>
                         <div className="content">
                             <img src={item.imagePost} alt="" />
                             <div className="overlay"></div>

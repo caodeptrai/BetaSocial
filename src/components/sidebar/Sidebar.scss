@@ -1,8 +1,9 @@
 .sidebar {
-    height: 100vh;
+    height: inherit;
     width: 256px;
     position: fixed;
     top: 0;
+    left: 0;
     transition: 0.4s ease;
 
     &.isSmall {
@@ -15,7 +16,7 @@
         height: 100%;
         padding: 0 20px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: column;
         background-color: white;
         transition: 0.4s ease;
@@ -23,14 +24,15 @@
         z-index: 2;
 
         &.isSmall {
-            padding: 0 10px;
+            // padding: 0 10px;
             width: 64px;
         }
 
         .logo {
             display: flex;
             align-items: center;
-
+            margin-top: 40px;
+            margin-bottom: 18px;
             font-weight: bold;
 
             h1 {
@@ -41,6 +43,9 @@
                 padding-bottom: 5px;
                 color: #0095f6;
             }
+        }
+        .logoSm {
+            display: none;
         }
         .item {
             padding: 14px 0;
@@ -65,7 +70,7 @@
             }
 
             .title {
-                margin-left: 24px;
+                margin-left: 16px;
                 flex-wrap: nowrap;
                 // transition: 0.7s ease;
 
@@ -107,6 +112,7 @@
         .more {
             display: flex;
             align-items: center;
+            margin-bottom: 26px;
         }
     }
 }
@@ -143,10 +149,12 @@
         width: 64px;
 
         .sidebarContainer {
-            .logo {
-                &.logo-2 {
-                    display: none;
-                }
+            .logoXl {
+                display: none;
+            }
+
+            .logoSm {
+                display: block;
             }
         }
 
@@ -156,104 +164,54 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .sidebar {
         height: 64px;
         width: 100%;
-        // position: fixed;
-        // top: 0;
-        // transition: 0.4s ease;
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        left: 0;
+        transition: 0.4s ease;
+
+        &.sidebarSm {
+            position: fixed;
+            bottom: 0 !important;
+        }
 
         .sidebarContainer {
-            width: 100%;
-            border-right: 1px solid #ccc;
-            height: 100%;
-            padding: 0 20px;
             display: flex;
-            justify-content: space-between;
-            background-color: white;
-
-            .logo {
-                display: flex;
-                align-items: center;
-
-                font-weight: bold;
-
-                h1 {
-                    font-size: 26px;
-                }
-                .dot {
-                    font-size: 34px;
-                    padding-bottom: 5px;
-                    color: #0095f6;
+            flex-direction: row;
+            align-items: center;
+            .contentTop {
+                width: 100%;
+                .item {
+                    width: auto;
                 }
             }
-            .item {
-                padding: 14px 0;
-                font-size: 16px;
-                font-weight: 400;
-                cursor: pointer;
-                display: flex;
-                align-items: center;
-                width: 100%;
+            .logoXl {
+                display: none;
+            }
 
-                .searchItem,
-                .notify {
-                    display: flex;
-                    align-items: center;
-                }
+            .logoSm {
+                display: none;
+            }
 
-                img {
-                    width: 20px;
-                    height: 20px;
-                    border-radius: 50%;
-                    object-fit: cover;
-                }
-
-                .title {
-                    margin-left: 24px;
-                    flex-wrap: nowrap;
-                    // transition: 0.7s ease;
-
-                    &.titleSmall {
-                        //  display: none;
-                        opacity: 0;
-                        transition: 0.3s ease;
-                    }
-                }
-
-                .titlePresonal {
-                    margin-left: 12px;
-                }
-
-                .icon {
-                    font-size: 20px;
-                }
+            .title {
+                display: none;
             }
 
             .content {
-                list-style: none;
-                padding: 0;
                 display: flex;
+                justify-content: space-around;
             }
 
-            .link {
-                text-decoration: none;
-                color: #000;
-                display: flex;
-                align-items: center;
+            .itemMore {
+                width: auto;
 
-                //   transition: 1s ease;
-            }
-
-            .active {
-                color: #000;
-                font-weight: bold;
-            }
-
-            .more {
-                display: flex;
-                align-items: center;
+                .more {
+                    margin-bottom: 0;
+                }
             }
         }
     }
