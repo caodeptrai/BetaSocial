@@ -79,8 +79,8 @@ export const posts = [
     {
         post_id: 'c9dac15f-eafe-4fd5-9d8b-88452aa4fcc3',
         user_post_id: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
-        user_post_name: 'tunpham0311',
-        user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
+        user_post_name: 'duongcao304',
+        user_post_avatar: 'https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-1/308476054_1103307597057379_870838083421102790_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=Yj5tkSN8RI0AX-k1pjk&_nc_ht=scontent.fhan5-9.fna&oh=00_AfBY9LauESiHpY7z3VBh7CvuTNOVorCKmyDvVCdqIp00TQ&oe=6432A51B',
         status: 'where are you now?',
         imagePost: 'https://ben.com.vn/tin-tuc/wp-content/uploads/2021/12/anh-che-meo-dang-yeu-cho-may-tinh-6.jpg',
         like: 1000,
@@ -101,7 +101,7 @@ export const posts = [
         user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
         status: 'where are you now?',
         imagePost:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR-XeMzii-m8iQ3g-C81pQ8ZF7LM4te3BOw&usqp=CAU',
+            'https://file.vfo.vn/hinh/2018/02/top-hinh-anh-dien-vien-han-quoc-dep-trai-xinh-gai-nhat-2.jpg',
         like: 100,
     },
     {
@@ -111,7 +111,7 @@ export const posts = [
         user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
         status: 'where are you now?',
         imagePost:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR-XeMzii-m8iQ3g-C81pQ8ZF7LM4te3BOw&usqp=CAU',
+            'https://mcdn.coolmate.me/uploads/February2022/nu-dien-vien-xinh-dep-nhat-viet-nam-14.png',
         like: 20,
     },
     {
@@ -121,7 +121,7 @@ export const posts = [
         user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
         status: 'where are you now?',
         imagePost:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR-XeMzii-m8iQ3g-C81pQ8ZF7LM4te3BOw&usqp=CAU',
+            'https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2022/3/6/1020690/Kim-Seon-Ho-4.jpg',
         like: 750,
     },
     {
@@ -131,29 +131,10 @@ export const posts = [
         user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
         status: 'where are you now?',
         imagePost:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR-XeMzii-m8iQ3g-C81pQ8ZF7LM4te3BOw&usqp=CAU',
+            'https://sotaytuyensinh.vn/uploads/dien-vien-nam-han-quoc-noi-tieng.jpg',
         like: 750,
     },
-    {
-        post_id: '0d6e5bca-9fc2-4ad1-a111-ca2d52f9ce4e',
-        user_post_id: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
-        user_post_name: 'tunpham0311',
-        user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
-        status: 'where are you now?',
-        imagePost:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR-XeMzii-m8iQ3g-C81pQ8ZF7LM4te3BOw&usqp=CAU',
-        like: 750,
-    },
-    {
-        post_id: '68adfd11-0a16-4ba1-a983-7dc85762c51b',
-        user_post_id: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
-        user_post_name: 'tunpham0311',
-        user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
-        status: 'where are you now?',
-        imagePost:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXR-XeMzii-m8iQ3g-C81pQ8ZF7LM4te3BOw&usqp=CAU',
-        like: 750,
-    },
+
 ];
 
 export const messages = [
@@ -161,7 +142,7 @@ export const messages = [
         messageId: 1,
         senderId: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
         senderImg:
-            'https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/308476054_1103307597057379_870838083421102790_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=qWAm-872ZOUAX-1SZdz&_nc_ht=scontent.fhan15-1.fna&oh=00_AfA8KyBVxM_cS1RkNBse-k-XhhU9Wi-hOPDUGg4fg6tXGg&oe=6428C1DB',
+            'https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-1/308476054_1103307597057379_870838083421102790_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=Yj5tkSN8RI0AX-k1pjk&_nc_ht=scontent.fhan5-9.fna&oh=00_AfBY9LauESiHpY7z3VBh7CvuTNOVorCKmyDvVCdqIp00TQ&oe=6432A51B',
         text: 'chào bạn',
         image: '',
         time: '5 minutes ago',
@@ -171,7 +152,7 @@ export const messages = [
         messageId: 2,
         senderId: 2,
         senderImg:
-            'https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/223830169_103672262016264_2183549718606660351_n.jpg?stp=c0.12.200.200a_dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=7206a8&_nc_ohc=1sawiuysnawAX-2-chu&_nc_ht=scontent.fhan15-1.fna&oh=00_AfCXYrqSuBpMVqXTPiVWlsBU76D_keM8cmDbrXlM9zd1tg&oe=642CF81E',
+            'https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/223830169_103672262016264_2183549718606660351_n.jpg?stp=c0.12.200.200a_dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=7206a8&_nc_ohc=qUh9ZgmoSlQAX9Kgmxw&_nc_ht=scontent.fhan15-1.fna&oh=00_AfDUHTL_nWqrl8IZONzjx77wyDetpNL75fAQ7dzOzy1tOg&oe=6432E6DE',
         text: 'hi',
         image: '',
         time: '5 minutes ago',
@@ -180,7 +161,7 @@ export const messages = [
         messageId: 3,
         senderId: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
         senderImg:
-            'https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/308476054_1103307597057379_870838083421102790_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=qWAm-872ZOUAX-1SZdz&_nc_ht=scontent.fhan15-1.fna&oh=00_AfA8KyBVxM_cS1RkNBse-k-XhhU9Wi-hOPDUGg4fg6tXGg&oe=6428C1DB',
+            'https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-1/308476054_1103307597057379_870838083421102790_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=Yj5tkSN8RI0AX-k1pjk&_nc_ht=scontent.fhan5-9.fna&oh=00_AfBY9LauESiHpY7z3VBh7CvuTNOVorCKmyDvVCdqIp00TQ&oe=6432A51B',
         text: 'bạn có thấy con mèo này đẹp không?',
         image: 'https://ben.com.vn/tin-tuc/wp-content/uploads/2021/12/anh-che-meo-dang-yeu-cho-may-tinh-6.jpg',
         time: '2 minutes ago',
@@ -189,7 +170,7 @@ export const messages = [
         messageId: 4,
         senderId: 2,
         senderImg:
-            'https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/223830169_103672262016264_2183549718606660351_n.jpg?stp=c0.12.200.200a_dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=7206a8&_nc_ohc=1sawiuysnawAX-2-chu&_nc_ht=scontent.fhan15-1.fna&oh=00_AfCXYrqSuBpMVqXTPiVWlsBU76D_keM8cmDbrXlM9zd1tg&oe=642CF81E',
+            'https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/223830169_103672262016264_2183549718606660351_n.jpg?stp=c0.12.200.200a_dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=7206a8&_nc_ohc=qUh9ZgmoSlQAX9Kgmxw&_nc_ht=scontent.fhan15-1.fna&oh=00_AfDUHTL_nWqrl8IZONzjx77wyDetpNL75fAQ7dzOzy1tOg&oe=6432E6DE',
         text: 'có !!',
         image: '',
         time: '1 minutes ago',
@@ -198,7 +179,7 @@ export const messages = [
         messageId: 1,
         senderId: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
         senderImg:
-            'https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/308476054_1103307597057379_870838083421102790_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=qWAm-872ZOUAX-1SZdz&_nc_ht=scontent.fhan15-1.fna&oh=00_AfA8KyBVxM_cS1RkNBse-k-XhhU9Wi-hOPDUGg4fg6tXGg&oe=6428C1DB',
+            'https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-1/308476054_1103307597057379_870838083421102790_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=Yj5tkSN8RI0AX-k1pjk&_nc_ht=scontent.fhan5-9.fna&oh=00_AfBY9LauESiHpY7z3VBh7CvuTNOVorCKmyDvVCdqIp00TQ&oe=6432A51B',
         text: 'hihi mình cũng thấy vậy',
         image: '',
         time: 'just now',
