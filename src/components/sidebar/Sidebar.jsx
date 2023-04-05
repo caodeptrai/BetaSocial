@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import './Sidebar.scss';
 import Search from '../search/Search';
 import { AppContext } from '../../contexts/AppContext';
-import GoogleIcon from '../../imgs/googleicon.png';
 import { Popover } from 'antd';
 import {
     ActivityIcon,
@@ -28,6 +27,7 @@ import {
     SettingIcon,
 } from '../iconSvg';
 import Notification from '../notification/Notification';
+import { users } from '../../data';
 
 const Sidebar = () => {
     const [toggleState, setToggleState] = useState(1);
@@ -38,7 +38,9 @@ const Sidebar = () => {
         setOpenSearch,
         openNotification,
         setOpentNotification,
+        setUserInfo,
     } = useContext(AppContext);
+
     const [darkmode, setDarkmode] = useState(false);
     const toggleTab = (index) => {
         setToggleState(index);
@@ -46,7 +48,7 @@ const Sidebar = () => {
     };
 
     const OpenSearch = (index) => {
-        toggleTab(index);
+        setToggleState(index);
 
         if (openNotification) {
             setOpenSearch(true);
@@ -59,7 +61,7 @@ const Sidebar = () => {
     };
 
     const OpenNotification = (index) => {
-        toggleTab(index);
+        setToggleState(index);
 
         if (openSearch) {
             setToggleSidebar(true);
@@ -69,6 +71,11 @@ const Sidebar = () => {
             setToggleSidebar(!toggleSidebar);
             setOpentNotification(!openNotification);
         }
+    };
+
+    const getUserInfor = (index) => {
+        setToggleState(index);
+        setUserInfo(users[0]);
     };
 
     const content = (
@@ -170,13 +177,12 @@ const Sidebar = () => {
                                 <span className={toggleSidebar ? 'title titleSmall' : 'title'}>Notification</span>
                             </div>
                         </li>
-                        <li className="item">
-                            <Link
-                                className={toggleState === 8 ? 'link active' : 'link'}
-                                to={`/profile/duongcao304`}
-                                onClick={() => toggleTab(8)}
-                            >
-                                <img src={GoogleIcon} alt="" />
+                        <li className="item" onClick={() => getUserInfor(8)}>
+                            <Link className={toggleState === 8 ? 'link active' : 'link'} to={`/profile/duongcao304`}>
+                                <img
+                                    src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-1/308476054_1103307597057379_870838083421102790_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=qWAm-872ZOUAX-1SZdz&_nc_ht=scontent.fhan15-1.fna&oh=00_AfA8KyBVxM_cS1RkNBse-k-XhhU9Wi-hOPDUGg4fg6tXGg&oe=6428C1DB"
+                                    alt=""
+                                />
                                 <span className={toggleSidebar ? 'title titleSmall' : 'title'}> Profile</span>
                             </Link>
                         </li>

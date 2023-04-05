@@ -125,7 +125,7 @@ export const posts = [
         like: 750,
     },
     {
-        post_id: '21afee4c-16c8-4ed4-9739-39efd0306928',
+        post_id: '0a12d74f-6dd6-4f7c-8ff0-064d70ee4cbc',
         user_post_id: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
         user_post_name: 'tunpham0311',
         user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
@@ -135,7 +135,7 @@ export const posts = [
         like: 750,
     },
     {
-        post_id: '21afee4c-16c8-4ed4-9739-39efd0306928',
+        post_id: '0d6e5bca-9fc2-4ad1-a111-ca2d52f9ce4e',
         user_post_id: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
         user_post_name: 'tunpham0311',
         user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',
@@ -145,7 +145,7 @@ export const posts = [
         like: 750,
     },
     {
-        post_id: '21afee4c-16c8-4ed4-9739-39efd0306928',
+        post_id: '68adfd11-0a16-4ba1-a983-7dc85762c51b',
         user_post_id: '9fdc8d87-9f71-4774-bbfd-d2be06b1d9fe',
         user_post_name: 'tunpham0311',
         user_post_avatar: 'https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg',

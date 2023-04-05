@@ -1,23 +1,7 @@
-// export const abc = (
-//     <svg
-//         aria-label="Quay vòng"
-//         class="x1lliihq x1n2onr6 x1hfr7tm"
-//         color="rgb(255, 255, 255)"
-//         fill="rgb(255, 255, 255)"
-//         height="24"
-//         role="img"
-//         viewBox="0 0 48 48"
-//         width="24"
-//     >
-//         <title>Quay vòng</title>
-//         <path d="M34.8 29.7V11c0-2.9-2.3-5.2-5.2-5.2H11c-2.9 0-5.2 2.3-5.2 5.2v18.7c0 2.9 2.3 5.2 5.2 5.2h18.7c2.8-.1 5.1-2.4 5.1-5.2zM39.2 15v16.1c0 4.5-3.7 8.2-8.2 8.2H14.9c-.6 0-.9.7-.5 1.1 1 1.1 2.4 1.8 4.1 1.8h13.4c5.7 0 10.3-4.6 10.3-10.3V18.5c0-1.6-.7-3.1-1.8-4.1-.5-.4-1.2 0-1.2.6z"></path>
-//     </svg>
-// );
-
 export const HomeActiveIcon = () => (
     <svg
         aria-label="Trang chủ"
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -32,7 +16,7 @@ export const HomeActiveIcon = () => (
 export const HomeIcon = () => (
     <svg
         aria-label="Trang chủ"
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -44,8 +28,8 @@ export const HomeIcon = () => (
             d="M9.005 16.545a2.997 2.997 0 0 1 2.997-2.997A2.997 2.997 0 0 1 15 16.545V22h7V11.543L12 2 2 11.543V22h7.005Z"
             fill="none"
             stroke="currentColor"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></path>
     </svg>
 );
@@ -53,7 +37,7 @@ export const HomeIcon = () => (
 export const SearchIcon = () => (
     <svg
         aria-label="Tìm kiếm"
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -65,16 +49,16 @@ export const SearchIcon = () => (
             d="M19 10.5A8.5 8.5 0 1 1 10.5 2a8.5 8.5 0 0 1 8.5 8.5Z"
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></path>
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="16.511"
             x2="22"
             y1="16.511"
@@ -86,7 +70,7 @@ export const SearchIcon = () => (
 export const SearchActiveIcon = () => (
     <svg
         aria-label="Tìm kiếm"
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -98,16 +82,16 @@ export const SearchActiveIcon = () => (
             d="M18.5 10.5a8 8 0 1 1-8-8 8 8 0 0 1 8 8Z"
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="3"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3"
         ></path>
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="3"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3"
             x1="16.511"
             x2="21.643"
             y1="16.511"
@@ -119,7 +103,7 @@ export const SearchActiveIcon = () => (
 export const ExploreIcon = () => (
     <svg
         aria-label="Khám phá"
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -131,20 +115,20 @@ export const ExploreIcon = () => (
             fill="none"
             points="13.941 13.953 7.581 16.424 10.06 10.056 16.42 7.585 13.941 13.953"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></polygon>
-        <polygon fill-rule="evenodd" points="10.06 10.056 13.949 13.945 7.581 16.424 10.06 10.056"></polygon>
+        <polygon fillRule="evenodd" points="10.06 10.056 13.949 13.945 7.581 16.424 10.06 10.056"></polygon>
         <circle
             cx="12.001"
             cy="12.005"
             fill="none"
             r="10.5"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></circle>
     </svg>
 );
@@ -152,7 +136,7 @@ export const ExploreIcon = () => (
 export const ReelsIcon = () => (
     <svg
         aria-label="Reels"
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -163,8 +147,8 @@ export const ReelsIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="2.049"
             x2="21.95"
             y1="7.002"
@@ -173,9 +157,9 @@ export const ReelsIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="13.504"
             x2="16.362"
             y1="2.001"
@@ -184,9 +168,9 @@ export const ReelsIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="7.207"
             x2="10.002"
             y1="2.11"
@@ -196,13 +180,13 @@ export const ReelsIcon = () => (
             d="M2 12.001v3.449c0 2.849.698 4.006 1.606 4.945.94.908 2.098 1.607 4.946 1.607h6.896c2.848 0 4.006-.699 4.946-1.607.908-.939 1.606-2.096 1.606-4.945V8.552c0-2.848-.698-4.006-1.606-4.945C19.454 2.699 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.546 2 5.704 2 8.552Z"
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></path>
         <path
             d="M9.763 17.664a.908.908 0 0 1-.454-.787V11.63a.909.909 0 0 1 1.364-.788l4.545 2.624a.909.909 0 0 1 0 1.575l-4.545 2.624a.91.91 0 0 1-.91 0Z"
-            fill-rule="evenodd"
+            fillRule="evenodd"
         ></path>
     </svg>
 );
@@ -210,7 +194,7 @@ export const ReelsIcon = () => (
 export const MessageIcon = () => (
     <svg
         aria-label="Messenger"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -223,12 +207,12 @@ export const MessageIcon = () => (
             d="M12.003 2.001a9.705 9.705 0 1 1 0 19.4 10.876 10.876 0 0 1-2.895-.384.798.798 0 0 0-.533.04l-1.984.876a.801.801 0 0 1-1.123-.708l-.054-1.78a.806.806 0 0 0-.27-.569 9.49 9.49 0 0 1-3.14-7.175 9.65 9.65 0 0 1 10-9.7Z"
             fill="none"
             stroke="currentColor"
-            stroke-miterlimit="10"
-            stroke-width="1.739"
+            strokeMiterlimit="10"
+            strokeWidth="1.739"
         ></path>
         <path
             d="M17.79 10.132a.659.659 0 0 0-.962-.873l-2.556 2.05a.63.63 0 0 1-.758.002L11.06 9.47a1.576 1.576 0 0 0-2.277.42l-2.567 3.98a.659.659 0 0 0 .961.875l2.556-2.049a.63.63 0 0 1 .759-.002l2.452 1.84a1.576 1.576 0 0 0 2.278-.42Z"
-            fill-rule="evenodd"
+            fillRule="evenodd"
         ></path>
     </svg>
 );
@@ -236,7 +220,7 @@ export const MessageIcon = () => (
 export const BarIcon = () => (
     <svg
         aria-label="Cài đặt"
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -247,9 +231,9 @@ export const BarIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="3"
             x2="21"
             y1="4"
@@ -258,9 +242,9 @@ export const BarIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="3"
             x2="21"
             y1="12"
@@ -269,9 +253,9 @@ export const BarIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="3"
             x2="21"
             y1="20"
@@ -283,7 +267,7 @@ export const BarIcon = () => (
 export const ExploreActiveIcon = () => (
     <svg
         aria-label="Khám phá"
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -298,7 +282,7 @@ export const ExploreActiveIcon = () => (
 export const ReelsActiveIcon = () => (
     <svg
         aria-label="Reels"
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -308,7 +292,7 @@ export const ReelsActiveIcon = () => (
     >
         <path
             d="m12.823 1 2.974 5.002h-5.58l-2.65-4.971c.206-.013.419-.022.642-.027L8.55 1Zm2.327 0h.298c3.06 0 4.468.754 5.64 1.887a6.007 6.007 0 0 1 1.596 2.82l.07.295h-4.629L15.15 1Zm-9.667.377L7.95 6.002H1.244a6.01 6.01 0 0 1 3.942-4.53Zm9.735 12.834-4.545-2.624a.909.909 0 0 0-1.356.668l-.008.12v5.248a.91.91 0 0 0 1.255.84l.109-.053 4.545-2.624a.909.909 0 0 0 .1-1.507l-.1-.068-4.545-2.624Zm-14.2-6.209h21.964l.015.36.003.189v6.899c0 3.061-.755 4.469-1.888 5.64-1.151 1.114-2.5 1.856-5.33 1.909l-.334.003H8.551c-3.06 0-4.467-.755-5.64-1.889-1.114-1.15-1.854-2.498-1.908-5.33L1 15.45V8.551l.003-.189Z"
-            fill-rule="evenodd"
+            fillRule="evenodd"
         ></path>
     </svg>
 );
@@ -316,7 +300,7 @@ export const ReelsActiveIcon = () => (
 export const MessageActiveIcon = () => (
     <svg
         aria-label="Messenger"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -332,7 +316,7 @@ export const MessageActiveIcon = () => (
 export const BarActiveIcon = () => (
     <svg
         aria-label="Cài đặt"
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -347,7 +331,7 @@ export const BarActiveIcon = () => (
 export const LikeIcon = () => (
     <svg
         aria-label="Thích"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -363,7 +347,7 @@ export const LikeIcon = () => (
 export const LikedIcon = () => (
     <svg
         aria-label="Bỏ thích"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(255, 48, 64)"
         fill="rgb(255, 48, 64)"
         height="24"
@@ -379,7 +363,7 @@ export const LikedIcon = () => (
 export const CommentIcon = () => (
     <svg
         aria-label="Bình luận"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -392,8 +376,8 @@ export const CommentIcon = () => (
             d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z"
             fill="none"
             stroke="currentColor"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></path>
     </svg>
 );
@@ -401,7 +385,7 @@ export const CommentIcon = () => (
 export const ShareIcon = () => (
     <svg
         aria-label="Chia sẻ bài viết"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -413,8 +397,8 @@ export const ShareIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="22"
             x2="9.218"
             y1="3"
@@ -424,8 +408,8 @@ export const ShareIcon = () => (
             fill="none"
             points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
             stroke="currentColor"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></polygon>
     </svg>
 );
@@ -433,7 +417,7 @@ export const ShareIcon = () => (
 export const BookMarkIcon = ({ height, width }) => (
     <svg
         aria-label="Lưu"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height={height}
@@ -446,9 +430,9 @@ export const BookMarkIcon = ({ height, width }) => (
             fill="none"
             points="20 21 12 13.44 4 21 4 3 20 3 20 21"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></polygon>
     </svg>
 );
@@ -456,7 +440,7 @@ export const BookMarkIcon = ({ height, width }) => (
 export const BookMarkedIcon = () => (
     <svg
         aria-label="Gỡ"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -472,7 +456,7 @@ export const BookMarkedIcon = () => (
 export const SettingIcon = () => (
     <svg
         aria-label="Cài đặt"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -487,16 +471,16 @@ export const SettingIcon = () => (
             fill="none"
             r="8.635"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></circle>
         <path
             d="M14.232 3.656a1.269 1.269 0 0 1-.796-.66L12.93 2h-1.86l-.505.996a1.269 1.269 0 0 1-.796.66m-.001 16.688a1.269 1.269 0 0 1 .796.66l.505.996h1.862l.505-.996a1.269 1.269 0 0 1 .796-.66M3.656 9.768a1.269 1.269 0 0 1-.66.796L2 11.07v1.862l.996.505a1.269 1.269 0 0 1 .66.796m16.688-.001a1.269 1.269 0 0 1 .66-.796L22 12.93v-1.86l-.996-.505a1.269 1.269 0 0 1-.66-.796M7.678 4.522a1.269 1.269 0 0 1-1.03.096l-1.06-.348L4.27 5.587l.348 1.062a1.269 1.269 0 0 1-.096 1.03m11.8 11.799a1.269 1.269 0 0 1 1.03-.096l1.06.348 1.318-1.317-.348-1.062a1.269 1.269 0 0 1 .096-1.03m-14.956.001a1.269 1.269 0 0 1 .096 1.03l-.348 1.06 1.317 1.318 1.062-.348a1.269 1.269 0 0 1 1.03.096m11.799-11.8a1.269 1.269 0 0 1-.096-1.03l.348-1.06-1.317-1.318-1.062.348a1.269 1.269 0 0 1-1.03-.096"
             fill="none"
             stroke="currentColor"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></path>
     </svg>
 );
@@ -504,7 +488,7 @@ export const SettingIcon = () => (
 export const ActivityIcon = () => (
     <svg
         aria-label="Hoạt động của bạn"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -517,17 +501,17 @@ export const ActivityIcon = () => (
             d="M12 1.505a10.5 10.5 0 1 1-7.424 17.924"
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></path>
         <polyline
             fill="none"
             points="8.893 15.108 12 12 12.012 12.012 12.012 5.793"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></polyline>
         <circle cx="7.24" cy="2.651" r="1.125"></circle>
         <circle cx="3.515" cy="5.83" r="1.125"></circle>
@@ -539,7 +523,7 @@ export const ActivityIcon = () => (
 export const DarkModeIcon = () => (
     <svg
         aria-label="Biểu tượng chủ đề"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -558,7 +542,7 @@ export const DarkModeIcon = () => (
 export const ReportIcon = () => (
     <svg
         aria-label="Báo cáo sự cố"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -574,7 +558,7 @@ export const ReportIcon = () => (
 export const TableCellsIcon = () => (
     <svg
         aria-label=""
-        class="_ab6-"
+        className="_ab6-"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="16"
@@ -586,9 +570,9 @@ export const TableCellsIcon = () => (
             fill="none"
             height="18"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             width="18"
             x="3"
             y="3"
@@ -596,9 +580,9 @@ export const TableCellsIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="9.015"
             x2="9.015"
             y1="3"
@@ -607,9 +591,9 @@ export const TableCellsIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="14.985"
             x2="14.985"
             y1="3"
@@ -618,9 +602,9 @@ export const TableCellsIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="21"
             x2="3"
             y1="9.015"
@@ -629,9 +613,9 @@ export const TableCellsIcon = () => (
         <line
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             x1="21"
             x2="3"
             y1="14.985"
@@ -671,7 +655,7 @@ export const BellActiveIcon = () => (
 export const OptionIcon = () => (
     <svg
         aria-label="Option"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -689,7 +673,7 @@ export const OptionIcon = () => (
 export const UploadIcon = () => (
     <svg
         aria-label="Thêm ảnh hoặc video"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -698,21 +682,21 @@ export const UploadIcon = () => (
         width="24"
     >
         <title>Thêm ảnh hoặc video</title>
-        <path d="M6.549 5.013A1.557 1.557 0 1 0 8.106 6.57a1.557 1.557 0 0 0-1.557-1.557Z" fill-rule="evenodd"></path>
+        <path d="M6.549 5.013A1.557 1.557 0 1 0 8.106 6.57a1.557 1.557 0 0 0-1.557-1.557Z" fillRule="evenodd"></path>
         <path
             d="m2 18.605 3.901-3.9a.908.908 0 0 1 1.284 0l2.807 2.806a.908.908 0 0 0 1.283 0l5.534-5.534a.908.908 0 0 1 1.283 0l3.905 3.905"
             fill="none"
             stroke="currentColor"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></path>
         <path
             d="M18.44 2.004A3.56 3.56 0 0 1 22 5.564h0v12.873a3.56 3.56 0 0 1-3.56 3.56H5.568a3.56 3.56 0 0 1-3.56-3.56V5.563a3.56 3.56 0 0 1 3.56-3.56Z"
             fill="none"
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
         ></path>
     </svg>
 );
@@ -720,7 +704,7 @@ export const UploadIcon = () => (
 export const EmojiIcon = () => (
     <svg
         aria-label="Biểu tượng cảm xúc"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(38, 38, 38)"
         fill="rgb(38, 38, 38)"
         height="24"
@@ -736,7 +720,7 @@ export const EmojiIcon = () => (
 export const SoundIcon = () => (
     <svg
         aria-label="Hình ảnh của âm thanh"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(255, 255, 255)"
         fill="rgb(255, 255, 255)"
         height="12"
@@ -752,7 +736,7 @@ export const SoundIcon = () => (
 export const LoudspeakerDisabledIcon = () => (
     <svg
         aria-label="Đã tắt âm thanh"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(255, 255, 255)"
         fill="rgb(255, 255, 255)"
         height="20"
@@ -764,7 +748,7 @@ export const LoudspeakerDisabledIcon = () => (
         <path
             clip-rule="evenodd"
             d="M1.5 13.3c-.8 0-1.5.7-1.5 1.5v18.4c0 .8.7 1.5 1.5 1.5h8.7l12.9 12.9c.9.9 2.5.3 2.5-1v-9.8c0-.4-.2-.8-.4-1.1l-22-22c-.3-.3-.7-.4-1.1-.4h-.6zm46.8 31.4-5.5-5.5C44.9 36.6 48 31.4 48 24c0-11.4-7.2-17.4-7.2-17.4-.6-.6-1.6-.6-2.2 0L37.2 8c-.6.6-.6 1.6 0 2.2 0 0 5.7 5 5.7 13.8 0 5.4-2.1 9.3-3.8 11.6L35.5 32c1.1-1.7 2.3-4.4 2.3-8 0-6.8-4.1-10.3-4.1-10.3-.6-.6-1.6-.6-2.2 0l-1.4 1.4c-.6.6-.6 1.6 0 2.2 0 0 2.6 2 2.6 6.7 0 1.8-.4 3.2-.9 4.3L25.5 22V1.4c0-1.3-1.6-1.9-2.5-1L13.5 10 3.3-.3c-.6-.6-1.5-.6-2.1 0L-.2 1.1c-.6.6-.6 1.5 0 2.1L4 7.6l26.8 26.8 13.9 13.9c.6.6 1.5.6 2.1 0l1.4-1.4c.7-.6.7-1.6.1-2.2z"
-            fill-rule="evenodd"
+            fillRule="evenodd"
         ></path>
     </svg>
 );
@@ -772,7 +756,7 @@ export const LoudspeakerDisabledIcon = () => (
 export const LoudspeakerIcon = () => (
     <svg
         aria-label="Đang phát âm thanh"
-        class="x1lliihq x1n2onr6"
+        className="x1lliihq x1n2onr6"
         color="rgb(255, 255, 255)"
         fill="rgb(255, 255, 255)"
         height="20"

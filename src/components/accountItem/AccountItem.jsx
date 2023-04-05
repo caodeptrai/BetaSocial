@@ -8,7 +8,7 @@ import { AppContext } from '../../contexts/AppContext';
 import './AccountItem.scss';
 
 const AccountItem = ({ item }) => {
-    const { setUserInfo, setOnwer } = useContext(AppContext);
+    const { setUserInfo } = useContext(AppContext);
     // const { currentUser } = useContext(AuthContext);
     const handleShowUserInfo = (data) => {
         setUserInfo(data);

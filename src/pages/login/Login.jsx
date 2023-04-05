@@ -29,6 +29,7 @@ const Login = () => {
 
     // login with email
     const handleSubmit = async (e) => {
+        e.preventDefault();
         const msg = {};
         if (values !== 'duongcao304' || values !== 'duongvancao999@gmail.com') {
             msg.value = 'Sorry, your user name or email does not exist';
