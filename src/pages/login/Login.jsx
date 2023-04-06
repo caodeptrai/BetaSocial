@@ -7,13 +7,12 @@ import FacebookIcon from '../../imgs/facebookicon.png';
 import TwitterIcon from '../../imgs/twittericon.png';
 import { Link, useNavigate } from 'react-router-dom';
 
-import { users } from '../../data';
 const Login = () => {
     const [values, setValues] = useState('');
     const [password, setPassword] = useState('');
     const [err, setErr] = useState(true);
     const [message, setMessage] = useState('');
-    const [loading, setLoading] = useState(false);
+    // const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
     const [viewPassword, setViewPassword] = useState(false);
 

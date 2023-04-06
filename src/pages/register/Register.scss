@@ -3,14 +3,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    // background-color: #f0eeee;
+     background-color: #f0f2f5;
     .registerContainer {
         width: 400px;
         background-color: white;
         display: flex;
         justify-content: center;
         border-radius: 8px;
-        filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.16));
+      //  filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.16));
 
         .registerForm {
             display: flex;

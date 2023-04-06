@@ -10,10 +10,10 @@ const Register = () => {
     const handleSubmit = async (e) => {
         setLoading(true);
         e.preventDefault();
-        const fullName = e.target[0].value;
-        const userName = e.target[1].value;
-        const email = e.target[2].value;
-        const password = e.target[3].value;
+        // const fullName = e.target[0].value;
+        // const userName = e.target[1].value;
+        // const email = e.target[2].value;
+        // const password = e.target[3].value;
     };
     return (
         <div className="register">
